@@ -1,0 +1,11 @@
+.Description {
+  background-color: white;
+  margin-left: 16pt;
+  margin-right: 16pt;
+  font-size: 19pt;
+  border-radius: 20pt;
+}
+
+p {
+  margin: 20pt;
+}
