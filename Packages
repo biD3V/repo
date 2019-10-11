@@ -1,93 +1,114 @@
-Package: com.bid3v.galaxyrainbow
-Name: Galaxy Rainbow
+Package: com.biD3V.galaxyrainbow
 Version: 1.0
 Architecture: iphoneos-arm
-Description: Samsung Galaxy clock widget
-Maintainer: biD3V <biD3Veloper+jailbreak@gmail.com>
-Author: biD3V <biD3Veloper+jailbreak@gmail.com>
-Section: Widgets
+Maintainer: biD3V
 Depends: com.matchstic.xenhtml
-Filename: debs/com.biD3V.galaxyrainbow_1.0_iphoneos-arm.deb
+Filename: ./debs/com.biD3V.galaxyrainbow_1.0_iphoneos-arm.deb
 Size: 38040
 MD5sum: 0a93a8d0fe2400d826e07b3f4d3d2878
 SHA1: f4ef516b87713bbd07077f7fd244817b21fd5bb9
 SHA256: 3a7ad7a801c8c35e309d20eeeee32963f0faaf37ee008cf8eb8fb5f8140d10f6
+Section: Widgets
+Description: Samsung Galaxy rainbow clock widget
+Author: biD3V
+Name: Galaxy Rainbow
 
-Package: com.bid3v.minoclock
-Name: min o' clock
+Package: com.biD3V.minoclock
 Version: 1.0
 Architecture: iphoneos-arm
-Description: Minimal clock widget
-Maintainer: biD3V <biD3Veloper+jailbreak@gmail.com>
-Author: biD3V <biD3Veloper+jailbreak@gmail.com>
-Section: Widgets
+Maintainer: biD3V
 Depends: com.matchstic.xenhtml
-Filename: debs/com.biD3V.minoclock_1.0_iphoneos-arm.deb
+Filename: ./debs/com.biD3V.minoclock_1.0_iphoneos-arm.deb
 Size: 133964
 MD5sum: c66d93b3b5bafef45ca432f5f1882ad5
 SHA1: 6d0df2cf243e74d7220f7e39c313967cbf30c40a
 SHA256: 086ad7c2cc67ec0ba73f1f1871b1599527ad206564198bcee9fa1a37dff39575
-
-Package: com.bid3v.randccolor
-Name: randCColor (beta)
-Version: 0.2.1
-Architecture: iphoneos-arm
-Description: Randomize the color of your CC modules!
-Maintainer: biD3V <biD3Veloper+jailbreak@gmail.com>
-Author: biD3V <biD3Veloper+jailbreak@gmail.com>
-Section: Tweaks
-Depends: mobilesubstrate
-Filename: debs/com.bid3v.randccolor_0.2.1-1+debug_iphoneos-arm.deb
-Depiction: depictions/randccolor.html
-Size: 33408
-MD5sum: 7b17520f04f9d6ef623ca2dcc08ef742
-SHA1: f674027a825b30eed52dc904f154098d6b00584a
-SHA256: 1075f9cebe4e279387f862dfbffb323c378256849b8a17946271db50a6645068
+Section: Widgets
+Description: Minimal clock and date widget
+Author: biD3V
+Name: min o’ clock
 
 Package: com.bid3v.gabc
-Name: goAwayBlurryCircles
-Version: 1.0.0
+Version: 1.0.0-1+debug
 Architecture: iphoneos-arm
-Description: Get rid of those circles behind your CC toggles
 Maintainer: biD3V <biD3Veloper+jailbreak@gmail.com>
-Author: biD3V <biD3Veloper+jailbreak@gmail.com>
-Section: Tweaks
+Installed-Size: 292
 Depends: mobilesubstrate
-Filename: debs/com.bid3v.gabc_1.0.0-1+debug_iphoneos-arm.deb
+Filename: ./debs/com.bid3v.gabc_1.0.0-1+debug_iphoneos-arm.deb
 Size: 15484
 MD5sum: 378087aa7a6ea166ed399b601086489d
 SHA1: 7203385ca0ad7a9bb225dc8fa0a2c7ca6ce0ed9f
 SHA256: 84eaadb7594a9e8160d33641986b7b4f765d116ba39ffbfa083088b299e78073
-
-Package: me.nepeta.mitsuhainfinity
-Name: Mitsuha Infinity
-Version: 0.1.8-1
-Architecture: iphoneos-arm
-Description: Audio visualizer for iOS
-Maintainer: biD3V <biD3Veloper+jailbreak@gmail.com>
-Author: Nepeta & biD3V <biD3Veloper+jailbreak@gmail.com>
 Section: Tweaks
-Depends: mobilesubstrate, me.nepeta.libcolorpicker | org.thebigboss.libcolorpicker (>= 1.6.3), io.ominousness.ass, ws.hbang.common (>= 1.11), me.nepeta.libmitsuha (>= 0.2.0), me.nepeta.libnepeta, firmware (>=11.0)
-Conflicts: io.c0ldra1n.mitsuha, io.c0ldra1n.mitsuha-beta, io.ominousness.mitsuhaxi
-Filename: debs/me.nepeta.mitsuhainfinity_0.1.8-1_iphoneos-arm.deb
-Depiction: depictions/mitsuhainfinity.html
-Icon: icons/bimitsuhainfinity.png
-Size: 62752
-MD5sum: 2adff9db8e59c35c10485721350541a1
-SHA1: 93cb1ac22965add993d0edfa8192e12cf5ee1236
-SHA256: 43c47c89b7999663dc9ceaee59fd29a1b85679773741c40472c05a1bca3077d6
+Description: Get rid of those blurry circles behind your CC toggles!
+Author: biD3V <biD3Veloper+jailbreak@gmail.com>
+Name: goAwayBlurryCircles
+
+Package: com.bid3v.randccolor
+Version: 0.2.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: biD3V
+Installed-Size: 336
+Depends: mobilesubstrate
+Filename: ./debs/com.bid3v.randccolor_0.2.1-1+debug_iphoneos-arm.deb
+Size: 33408
+MD5sum: 7b17520f04f9d6ef623ca2dcc08ef742
+SHA1: f674027a825b30eed52dc904f154098d6b00584a
+SHA256: 1075f9cebe4e279387f862dfbffb323c378256849b8a17946271db50a6645068
+Section: Tweaks
+Description: Randomize the color of your CC modules.
+Author: biD3V
+Name: randCColor (beta)
 
 Package: me.nepeta.libmitsuha
-Name: libmitsuha
 Version: 0.2.0
 Architecture: iphoneos-arm
-Description: Audio visualizer library
-Maintainer: biD3V <biD3Veloper+jailbreak@gmail.com>
-Author: Nepeta & biD3V <biD3Veloper+jailbreak@gmail.com>
-Section: Development
+Maintainer: BiD3V
+Installed-Size: 332
 Depends: io.ominousness.ass (>= 1.0.1), firmware (>= 9.0)
-Filename: debs/me.nepeta.libmitsuha_0.2.0_iphoneos-arm.deb
+Filename: ./debs/me.nepeta.libmitsuha_0.2.0_iphoneos-arm.deb
 Size: 36534
 MD5sum: d687d4d7c1ccb60f0860853f1f1bbcbf
 SHA1: 2f27946293fa98900b830a179b15705987142d2d
 SHA256: 33a7e85cabd31599a8450e7a0c768cad783bfb3cb30ed84c595592b1305828c9
+Section: Development
+Description: Audio visualizer library
+Author: Nepeta & BiD3V
+Name: libmitsuha
+
+Package: me.nepeta.mitsuhainfinity
+Version: 0.1.8
+Architecture: iphoneos-arm
+Maintainer: BiD3V
+Installed-Size: 896
+Depends: mobilesubstrate, me.nepeta.libcolorpicker | org.thebigboss.libcolorpicker (>= 1.6.3), io.ominousness.ass, ws.hbang.common (>= 1.11), me.nepeta.libmitsuha (>= 0.2.0), me.nepeta.libnepeta, firmware (>=11.0)
+Conflicts: io.c0ldra1n.mitsuha, io.c0ldra1n.mitsuha-beta, io.ominousness.mitsuhaxi
+Filename: ./debs/me.nepeta.mitsuhainfinity_0.1.8_iphoneos-arm.deb
+Size: 48062
+MD5sum: e7903a4e15bd4adb57172aa17cd94136
+SHA1: d9f742a5578138e51972729ef02ae0485b55dda2
+SHA256: 7e92998bf65dd08b60a1ead0bbad76ca00c43acf985647f6d164794d64198442
+Section: Tweaks
+Description: Audio visualizer for iOS
+Author: c0ldra1n, Nepeta, & BiD3V
+Name: Mitsuha Infinity
+
+Package: me.nepeta.mitsuhainfinity
+Version: 0.1.8-1
+Architecture: iphoneos-arm
+Maintainer: BiD3V
+Installed-Size: 1072
+Depends: mobilesubstrate, me.nepeta.libcolorpicker | org.thebigboss.libcolorpicker (>= 1.6.3), io.ominousness.ass, ws.hbang.common (>= 1.11), me.nepeta.libmitsuha (>= 0.2.0), me.nepeta.libnepeta, firmware (>=11.0)
+Conflicts: io.c0ldra1n.mitsuha, io.c0ldra1n.mitsuha-beta, io.ominousness.mitsuhaxi
+Filename: ./debs/me.nepeta.mitsuhainfinity_0.1.8-1_iphoneos-arm.deb
+Size: 62814
+MD5sum: 50bad59d68bd9ae09f688aa64d673232
+SHA1: 3646e0f015a8bd896c82646b750232f81976d32a
+SHA256: 9fcc2a23eab519e281cf8838383ccebbe0974ed677c49e939cde57772a1de3b0
+Section: Tweaks
+Description: Audio visualizer for iOS
+Author: c0ldra1n, Nepeta, & BiD3V
+Depiction: https://biD3V.github.io/repo/depictions/mitsuhainfinity.html
+Icon: https://biD3V.github.io/repo/icons/bimitsuhainfinity.png
+Name: Mitsuha Infinity
+
