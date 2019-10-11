@@ -38,7 +38,7 @@ Author: biD3V <biD3Veloper+jailbreak@gmail.com>
 Section: Tweaks
 Depends: mobilesubstrate
 Filename: debs/com.bid3v.randccolor_0.2.1-1+debug_iphoneos-arm.deb
-Depiction: ./depictions/randccolor.html
+Depiction: depictions/randccolor.html
 Size: 33408
 MD5sum: 7b17520f04f9d6ef623ca2dcc08ef742
 SHA1: f674027a825b30eed52dc904f154098d6b00584a
@@ -70,8 +70,8 @@ Section: Tweaks
 Depends: mobilesubstrate, me.nepeta.libcolorpicker | org.thebigboss.libcolorpicker (>= 1.6.3), io.ominousness.ass, ws.hbang.common (>= 1.11), me.nepeta.libmitsuha (>= 0.2.0), me.nepeta.libnepeta, firmware (>=11.0)
 Conflicts: io.c0ldra1n.mitsuha, io.c0ldra1n.mitsuha-beta, io.ominousness.mitsuhaxi
 Filename: debs/me.nepeta.mitsuhainfinity_0.1.8-1_iphoneos-arm.deb
-Depiction: ./depictions/mitsuhainfinity.html
-Icon: ./icons/bimitsuhainfinity.png
+Depiction: depictions/mitsuhainfinity.html
+Icon: icons/bimitsuhainfinity.png
 Size: 62752
 MD5sum: 2adff9db8e59c35c10485721350541a1
 SHA1: 93cb1ac22965add993d0edfa8192e12cf5ee1236
