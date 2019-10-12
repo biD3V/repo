@@ -11,6 +11,8 @@ SHA256: 3a7ad7a801c8c35e309d20eeeee32963f0faaf37ee008cf8eb8fb5f8140d10f6
 Section: Widgets
 Description: Samsung Galaxy rainbow clock widget
 Author: biD3V
+Depiction: https://biD3V.github.io/repo/depictions/galaxyrainbow.html
+Icon: https://biD3V.github.io/repo/icons/GalaxyRainbow.png
 Name: Galaxy Rainbow
 
 Package: com.biD3V.minoclock
@@ -26,6 +28,8 @@ SHA256: 086ad7c2cc67ec0ba73f1f1871b1599527ad206564198bcee9fa1a37dff39575
 Section: Widgets
 Description: Minimal clock and date widget
 Author: biD3V
+Depiction: https://biD3V.github.io/repo/depictions/minoclock.html
+Icon: https://biD3V.github.io/repo/icons/minoclock.png
 Name: min o’ clock
 
 Package: com.bid3v.gabc
@@ -44,6 +48,24 @@ Description: Get rid of those blurry circles behind your CC toggles!
 Author: biD3V <biD3Veloper+jailbreak@gmail.com>
 Name: goAwayBlurryCircles
 
+Package: com.bid3v.gabc
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: biD3V <biD3Veloper+jailbreak@gmail.com>
+Installed-Size: 280
+Depends: mobilesubstrate, firmware (>=11.0)
+Filename: ./debs/com.bid3v.gabc_1.0.1_iphoneos-arm.deb
+Size: 8692
+MD5sum: a8fe27c05632683810cf7bb74c97beca
+SHA1: e768b6c34777524f0e67d1da9dc1f8c05571973d
+SHA256: b667be9a6ac4ea7f0b0b57f5b3ee918a2c66a0db32deec1e5d1bfa939110b913
+Section: Tweaks
+Description: Get rid of those blurry circles behind your CC toggles!
+Author: biD3V <biD3Veloper+jailbreak@gmail.com>
+Depiction: https://biD3V.github.io/repo/depictions/gabc.html
+Icon: https://biD3V.github.io/repo/icons/gABC.png
+Name: goAwayBlurryCircles
+
 Package: com.bid3v.randccolor
 Version: 0.2.1-1+debug
 Architecture: iphoneos-arm
@@ -60,6 +82,24 @@ Description: Randomize the color of your CC modules.
 Author: biD3V
 Name: randCColor (beta)
 
+Package: com.bid3v.randccolor
+Version: 0.2.2
+Architecture: iphoneos-arm
+Maintainer: biD3V
+Installed-Size: 336
+Depends: mobilesubstrate, firmware (>=11.0)
+Filename: ./debs/com.bid3v.randccolor_0.2.2_iphoneos-arm.deb
+Size: 29472
+MD5sum: 96957497a168ef83fea8dd5097a8112c
+SHA1: a03296d5459845bd3206cc6b4b767fbc21d334cd
+SHA256: b8fdfdd3d739a1e88e095c2d7703e3f3a3a71221ad385fb808f975f468496398
+Section: Tweaks
+Description: Randomize the color of your CC toggles.
+Author: biD3V
+Depiction: https://biD3V.github.io/repo/depictions/randccolor.html
+Icon: https://biD3V.github.io/repo/icons/randCColor.png
+Name: randCColor (beta)
+
 Package: me.nepeta.libmitsuha
 Version: 0.2.0
 Architecture: iphoneos-arm
@@ -74,6 +114,8 @@ SHA256: 33a7e85cabd31599a8450e7a0c768cad783bfb3cb30ed84c595592b1305828c9
 Section: Development
 Description: Audio visualizer library
 Author: Nepeta & BiD3V
+Depiction: https://biD3V.github.io/repo/depictions/bilibmitsuha.html
+Icon: https://biD3V.github.io/repo/icons/bilibmitsuha.png
 Name: libmitsuha
 
 Package: me.nepeta.mitsuhainfinity

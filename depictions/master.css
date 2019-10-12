@@ -1,19 +1,35 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
 .Title {
-    margin-left: 16pt;
-    margin-right: 16pt;
+    margin-left: 26pt;
+    margin-right: 26pt;
 }
 
 .Description {
-    background-color: white;
-    margin-left: 16pt;
-    margin-right: 16pt;
+    background-color: #191919;
+    margin: 16pt;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
     border-radius: 20pt;
 }
 
 .indented {
-    margin-left: 5pt;
+    margin-left: 25pt;
 }
 
 p {
-    margin: 20pt;
+    margin-left: 20pt;
+    margin-right: 20pt;
+}
+
+h2 {
+    margin-left: 20pt;
+    margin-right: 20pt;
+}
+h3 {
+    margin-left: 20pt;
+    margin-right: 20pt;
 }
