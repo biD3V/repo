@@ -1,0 +1,15 @@
+#!/bin/bash
+
+dpkg-scanpackages -m debs > Packages
+echo "Packages file created"
+
+if [ -e Packages.bz2 ]
+then
+	echo "Old Packages.bz2 found, removing..."
+	rm Packages.bz2
+fi
+
+echo "Compressing Packages..."
+bzip2 -k Packages
+
+echo "Done."
