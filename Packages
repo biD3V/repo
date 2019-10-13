@@ -4,10 +4,10 @@ Architecture: iphoneos-arm
 Maintainer: biD3V
 Depends: com.matchstic.xenhtml
 Filename: debs/com.bid3v.galaxyrainbow_1.0.2_iphoneos-arm.deb
-Size: 38516
-MD5sum: aa1d41cd11d868fce4cfb96ff5371232
-SHA1: 490ed85239afe68882391296d2fd4b25724c2eb9
-SHA256: a4638d45cd98e7590f2b1eb76d8f0a304086fe920ebc08d8c5f3725e4680b17d
+Size: 38022
+MD5sum: debfe031016a9d1a6778ddcb5308ea99
+SHA1: febd858d24603ddd3c66bd51eab36c23e4d19062
+SHA256: 980d1d737b1b9f8a778736560bbc70ae370928befbb4c039955af1185a25ab4f
 Section: Widgets
 Description: Samsung Galaxy rainbow clock widget
 Author: biD3V
