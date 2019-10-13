@@ -13,6 +13,23 @@ Description: Samsung Galaxy rainbow clock widget
 Author: biD3V
 Name: Galaxy Rainbow
 
+Package: com.biD3V.galaxyrainbow
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: biD3V
+Depends: com.matchstic.xenhtml
+Filename: debs/com.biD3V.galaxyrainbow_1.1_iphoneos-arm.deb
+Size: 33464
+MD5sum: 82795b32f0f6db1ba93574cb0abd02b7
+SHA1: 2a4c066797e24b432f6f569db07e24b1b857cd7c
+SHA256: efed5ff4b1d73d9363f06edf86f0a99663c10867bbc44ba61e7b95711a4709c0
+Section: Widgets
+Description: Samsung Galaxy rainbow clock widget
+Author: biD3V
+Depiction: https://biD3V.github.io/repo/galaxyrainbow.html
+Icon: https://biD3V.github.io/repo/GalaxyRainbow.png
+Name: Galaxy Rainbow
+
 Package: com.biD3V.minoclock
 Version: 1.0
 Architecture: iphoneos-arm
