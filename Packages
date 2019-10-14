@@ -16,18 +16,20 @@ Icon: https://biD3V.github.io/repo/icons/GalaxyRainbow.png
 Name: Galaxy Rainbow
 
 Package: com.biD3V.minoclock
-Version: 1.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: biD3V
 Depends: com.matchstic.xenhtml
-Filename: debs/com.biD3V.minoclock_1.0_iphoneos-arm.deb
-Size: 133964
-MD5sum: c66d93b3b5bafef45ca432f5f1882ad5
-SHA1: 6d0df2cf243e74d7220f7e39c313967cbf30c40a
-SHA256: 086ad7c2cc67ec0ba73f1f1871b1599527ad206564198bcee9fa1a37dff39575
+Filename: debs/com.bid3v.minoclock_1.0_iphoneos-arm.deb
+Size: 134106
+MD5sum: e69072a0768e6a50933fcca56e966d26
+SHA1: 390c049b01ac28c52cb32fc1024123c9a01f1b6d
+SHA256: adadb97490fc25880936b47382778a3d1d8ddcf2b5298da0b76b26e7c24572fd
 Section: Widgets
 Description: Minimal clock and date widget
 Author: biD3V
+Depiction: https://biD3V.github.io/repo/depictions/minoclock.html
+Icon: https://biD3V.github.io/repo/icons/minoclock.png
 Name: min o’ clock
 
 Package: com.bid3v.gabc
