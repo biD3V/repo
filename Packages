@@ -20,7 +20,7 @@ Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: biD3V
 Depends: com.matchstic.xenhtml
-Filename: debs/com.bid3v.minoclock_1.0_iphoneos-arm.deb
+Filename: debs/com.biD3V.minoclock_1.0_iphoneos-arm.deb
 Size: 134106
 MD5sum: e69072a0768e6a50933fcca56e966d26
 SHA1: 390c049b01ac28c52cb32fc1024123c9a01f1b6d
@@ -66,6 +66,25 @@ Depiction: https://biD3V.github.io/repo/depictions/gabc.html
 Icon: https://biD3V.github.io/repo/icons/gABC.png
 Name: goAwayBlurryCircles
 
+Package: com.bid3v.pinnie
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: biD3V
+Installed-Size: 596
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.ahmad.pinheads, com.twickd.nicho1asdev.caim
+Filename: debs/com.bid3v.pinnie_0.1.0_iphoneos-arm.deb
+Size: 185688
+MD5sum: 45136203fdb02f4ed721a4436c516f0f
+SHA1: c7a98c39981544dcb474783ff64e2a0996f6fc70
+SHA256: 0a4314a81bebc62d5c1b73de6f6cc4c028ada573360e8f9e83e37f21a334eed1
+Section: Tweaks
+Description: Pin messages like iOS 14!
+Author: biD3V
+Depiction: https://biD3V.github.io/repo/depictions/galaxyrainbow.html
+Icon: https://biD3V.github.io/repo/icons/Pinnie.png
+Name: Pinnie
+
 Package: com.bid3v.randccolor
 Version: 0.2.1-1+debug
 Architecture: iphoneos-arm
@@ -99,93 +118,4 @@ Author: biD3V
 Depiction: https://biD3V.github.io/repo/depictions/randccolor.html
 Icon: https://biD3V.github.io/repo/icons/randCColor.png
 Name: randCColor (beta)
-
-Package: me.nepeta.libmitsuha
-Version: 0.2.0
-Architecture: iphoneos-arm
-Maintainer: BiD3V
-Installed-Size: 332
-Depends: io.ominousness.ass (>= 1.0.1), firmware (>= 9.0)
-Filename: debs/me.nepeta.libmitsuha_0.2.0_iphoneos-arm.deb
-Size: 36534
-MD5sum: d687d4d7c1ccb60f0860853f1f1bbcbf
-SHA1: 2f27946293fa98900b830a179b15705987142d2d
-SHA256: 33a7e85cabd31599a8450e7a0c768cad783bfb3cb30ed84c595592b1305828c9
-Section: Development
-Description: Audio visualizer library
-Author: Nepeta & BiD3V
-Name: libmitsuha
-
-Package: me.nepeta.libmitsuha
-Version: 0.2.1
-Architecture: iphoneos-arm
-Maintainer: BiD3V
-Installed-Size: 496
-Depends: io.ominousness.ass (>= 1.0.1), firmware (>= 9.0)
-Filename: debs/me.nepeta.libmitsuha_0.2.1_iphoneos-arm.deb
-Size: 63736
-MD5sum: 258f8ce6c89836e26159e4373c7480c2
-SHA1: 571b1ff4c2c436abbb6c414994d39000dbfe0e65
-SHA256: beb3ef1a859b9c4aadb5e2f54767a04be4a85279e7c3c0af9d106dd2e52e9432
-Section: Development
-Description: Audio visualizer library
-Author: Nepeta & BiD3V
-Depiction: https://biD3V.github.io/repo/depictions/bilibmitsuha.html
-Icon: https://biD3V.github.io/repo/icons/bilibmitsuha.png
-Name: libmitsuha
-
-Package: me.nepeta.mitsuhainfinity
-Version: 0.1.8
-Architecture: iphoneos-arm
-Maintainer: BiD3V
-Installed-Size: 896
-Depends: mobilesubstrate, me.nepeta.libcolorpicker | org.thebigboss.libcolorpicker (>= 1.6.3), io.ominousness.ass, ws.hbang.common (>= 1.11), me.nepeta.libmitsuha (>= 0.2.0), me.nepeta.libnepeta, firmware (>=11.0)
-Conflicts: io.c0ldra1n.mitsuha, io.c0ldra1n.mitsuha-beta, io.ominousness.mitsuhaxi
-Filename: debs/me.nepeta.mitsuhainfinity_0.1.8_iphoneos-arm.deb
-Size: 48062
-MD5sum: e7903a4e15bd4adb57172aa17cd94136
-SHA1: d9f742a5578138e51972729ef02ae0485b55dda2
-SHA256: 7e92998bf65dd08b60a1ead0bbad76ca00c43acf985647f6d164794d64198442
-Section: Tweaks
-Description: Audio visualizer for iOS
-Author: c0ldra1n, Nepeta, & BiD3V
-Name: Mitsuha Infinity
-
-Package: me.nepeta.mitsuhainfinity
-Version: 0.1.8-1
-Architecture: iphoneos-arm
-Maintainer: BiD3V
-Installed-Size: 1072
-Depends: mobilesubstrate, me.nepeta.libcolorpicker | org.thebigboss.libcolorpicker (>= 1.6.3), io.ominousness.ass, ws.hbang.common (>= 1.11), me.nepeta.libmitsuha (>= 0.2.0), me.nepeta.libnepeta, firmware (>=11.0)
-Conflicts: io.c0ldra1n.mitsuha, io.c0ldra1n.mitsuha-beta, io.ominousness.mitsuhaxi
-Filename: debs/me.nepeta.mitsuhainfinity_0.1.8-1_iphoneos-arm.deb
-Size: 62814
-MD5sum: 50bad59d68bd9ae09f688aa64d673232
-SHA1: 3646e0f015a8bd896c82646b750232f81976d32a
-SHA256: 9fcc2a23eab519e281cf8838383ccebbe0974ed677c49e939cde57772a1de3b0
-Section: Tweaks
-Description: Audio visualizer for iOS
-Author: c0ldra1n, Nepeta, & BiD3V
-Depiction: https://biD3V.github.io/repo/depictions/mitsuhainfinity.html
-Icon: https://biD3V.github.io/repo/icons/bimitsuhainfinity.png
-Name: Mitsuha Infinity
-
-Package: me.nepeta.mitsuhainfinity
-Version: 0.1.9
-Architecture: iphoneos-arm
-Maintainer: BiD3V
-Installed-Size: 1072
-Depends: mobilesubstrate, me.nepeta.libcolorpicker | org.thebigboss.libcolorpicker (>= 1.6.3), io.ominousness.ass, ws.hbang.common (>= 1.11), me.nepeta.libmitsuha (>= 0.2.1), me.nepeta.libnepeta, firmware (>=11.0)
-Conflicts: io.c0ldra1n.mitsuha, io.c0ldra1n.mitsuha-beta, io.ominousness.mitsuhaxi
-Filename: debs/me.nepeta.mitsuhainfinity_0.1.9_iphoneos-arm.deb
-Size: 63384
-MD5sum: 244ac79cd750b8b44f72d95ce76c9444
-SHA1: a4faac43e00c0669c94bf198e8e22afff9c6039d
-SHA256: 98e3abb466254d739eb21137959701c4a9c4b707b2a9b7c11032f1b74467ab21
-Section: Tweaks
-Description: Audio visualizer for iOS
-Author: c0ldra1n, Nepeta, & BiD3V
-Depiction: https://biD3V.github.io/repo/depictions/mitsuhainfinity.html
-Icon: https://biD3V.github.io/repo/icons/bimitsuhainfinity.png
-Name: Mitsuha Infinity
 

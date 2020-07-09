@@ -62,3 +62,32 @@ a:link, a:visited {
 a:hover, a:active {
   text-shadow: 0px 0px 5px white;
 }
+
+.app {
+  display: grid;
+  grid-template-columns: 10pt 1fr 10pt;
+}
+.app > * {
+  grid-column: 2 / -2;
+}
+
+.screenshotsScroll {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(7, calc(50% - 40pt));
+    grid-template-rows: minmax(150px, 1fr);
+    overflow-x: scroll;
+    scroll-snap-type: x proximity;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    border-radius: 10pt;
+}
+.screenshotsScroll::-webkit-scrollbar {
+    display: none;
+}
+
+
+.screenshotsScroll > * {
+    width: 100%;
+    border-radius: 10pt;
+}
