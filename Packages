@@ -104,6 +104,25 @@ Depiction: https://biD3V.github.io/repo/depictions/pinnie.html
 Icon: https://biD3V.github.io/repo/icons/Pinnie.png
 Name: Pinnie
 
+Package: com.bid3v.pinnie
+Version: 0.1.2
+Architecture: iphoneos-arm
+Maintainer: biD3V
+Installed-Size: 624
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.ahmad.pinheads, com.twickd.nicho1asdev.caim, com.captinc.typecentury
+Filename: debs/com.bid3v.pinnie_0.1.2_iphoneos-arm.deb
+Size: 225166
+MD5sum: c2cd27e2a6df81866d35c6fc846d56b2
+SHA1: 5721423cb473a0c2950a9c9ff8b3196d1fff9ecb
+SHA256: fa7551e80593124b86f954c32deec90ac5f9898734785f13bf21abb9f241a1ba
+Section: Tweaks
+Description: Pin messages like iOS 14!
+Author: biD3V
+Depiction: https://biD3V.github.io/repo/depictions/pinnie.html
+Icon: https://biD3V.github.io/repo/icons/Pinnie.png
+Name: Pinnie
+
 Package: com.bid3v.randccolor
 Version: 0.2.1-1+debug
 Architecture: iphoneos-arm
