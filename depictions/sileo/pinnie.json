@@ -1,0 +1,85 @@
+{
+"minVersion": "0.1",
+"class": "DepictionTabView",
+"tabs": [
+    {
+        "class": "DepictionStackView",
+        "tabName": "Info",
+        "views": [
+            {
+                "class": "DepictionMarkdownView",
+                "markdown": "Pin messages like iOS 14! Swipe left on a conversation to pin and hard press on a pin to get an unpin option.\
+                **Note: On iOS 11/12 long hold on the pin and release to unpin.\
+                <br>For quicker mass removing tap on the three dots in the top right, \"Select Messages,\" then tap the red minus on the pins you want to remove."
+            },
+            {
+                "class": "DepictionHeaderView",
+                "title": "Customization Features"
+            },
+            {
+                "class": "DepictionMarkdownView",
+                "markdown": "* Normal or Compact Layout\
+                * Set the size of Normal layout between small and large\
+                * Change number of columns on Normal layout\
+                * Disable the \"Drop Glow\" and change it's opacity"
+            },
+            {
+                "class": "DepictionHeaderView",
+                "title": "Screenshots"
+            },
+            {
+                "class": "DepictionScreenshotsView",
+                "screenshots": [
+                    {
+                        "url": "../images/pinnie/1.PNG",
+                        "accessibilityText": "Swipe left on conversation to pin"
+                    },
+                    {
+                        "url": "../images/pinnie/2.PNG",
+                        "accessibilityText": "On iOS 13 and up Hard Press on a pin to unpin"
+                    },
+                    {
+                        "url": "../images/pinnie/4.PNG",
+                        "accessibilityText": "Small pin cells in 3 columns"
+                    },
+                    {
+                        "url": "../images/pinnie/7.PNG",
+                        "accessibilityText": "Compact mode"
+                    },
+                    {
+                        "url": "../images/pinnie/8.PNG",
+                        "accessibilityText": "use the Select Messages function to remove pins quickly"
+                    },
+                    {
+                        "url": "../images/pinnie/9.PNG",
+                        "accessibilityText": "Large pin cells in two columns"
+                    },
+                    {
+                        "url": "../images/pinnie/10.PNG",
+                        "accessibilityText": "Small pin cells in four columns"
+                    }
+                ],
+                "itemCornerRadius": 10,
+                "itemSize": {150,325}
+            }
+        ]
+    },
+    {
+        "class": "DepictionStackView",
+        "tabName": "Changlog",
+        "views": [
+            {
+                "class": "DepictionHeaderView",
+                "title": "0.2.0"
+            },
+            {
+                "class": "DepictionMarkdownView",
+                "markdown": "* TypeCentury and \"Filter Unknown Senders\" compatability\
+                * All pins now load when the app opens\
+                * Added different column amounts\
+                * Added edit pins option"
+            }
+        ]
+    }
+]
+}

@@ -32,6 +32,23 @@ Depiction: https://biD3V.github.io/repo/depictions/minoclock.html
 Icon: https://biD3V.github.io/repo/icons/minoclock.png
 Name: min o’ clock
 
+Package: com.bid3v.cleanify
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: biD3V
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: debs/com.bid3v.cleanify_1.0.0_iphoneos-arm.deb
+Size: 2966
+MD5sum: cda920c9fe55115183ec3f075241c10e
+SHA1: 2dd0c9e2ddb173c6d1b8d35f808d4134987ddcd5
+SHA256: 1ea1fe77bbdfc513adecae6fef8d9b265d681d41339f511b4f02d2bd5bc9a78b
+Section: Tweaks
+Description: Remove shadows in Spotify's Now Playing view.
+Author: biD3V
+Depiction: https://bid3v.github.io/repo/depictions/cleanify.html
+Name: Cleanify
+
 Package: com.bid3v.gabc
 Version: 1.0.0-1+debug
 Architecture: iphoneos-arm
@@ -141,6 +158,26 @@ Author: biD3V
 Depiction: https://biD3V.github.io/repo/depictions/pinnie.html
 Icon: https://biD3V.github.io/repo/icons/Pinnie.png
 Name: Pinnie
+
+Package: com.bid3v.pinnie
+Version: 0.2.0
+Architecture: iphoneos-arm
+Maintainer: biD3V
+Installed-Size: 644
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.ahmad.pinheads, com.twickd.nicho1asdev.caim
+Filename: debs/com.bid3v.pinnie_0.2.0_iphoneos-arm.deb
+Size: 238840
+MD5sum: a26794cac41796ca11449efb8a395fd2
+SHA1: e51ff589b5f46351b9573d8fa13b544c4bd145a6
+SHA256: 2b1912b859358e869c7ab867cf1274bef22362b9b117c215ee445c6b94d89fdb
+Section: Tweaks
+Description: Pin messages like iOS 14!
+Author: biD3V
+Depiction: https://biD3V.github.io/repo/depictions/pinnie.html
+Icon: https://biD3V.github.io/repo/icons/Pinnie.png
+Name: Pinnie
+Sileodepiction: https://biD3V.github.io/repo/depictions/sileo/pinnie.json
 
 Package: com.bid3v.randccolor
 Version: 0.2.1-1+debug
