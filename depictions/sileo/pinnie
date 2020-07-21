@@ -4,13 +4,11 @@
 "tabs": [
     {
         "class": "DepictionStackView",
-        "tabName": "Info",
+        "tabName": "Details",
         "views": [
             {
                 "class": "DepictionMarkdownView",
-                "markdown": "Pin messages like iOS 14! Swipe left on a conversation to pin and hard press on a pin to get an unpin option.\
-                **Note: On iOS 11/12 long hold on the pin and release to unpin.\
-                <br>For quicker mass removing tap on the three dots in the top right, \"Select Messages,\" then tap the red minus on the pins you want to remove."
+                "markdown": "Pin messages like iOS 14! Swipe left on a conversation to pin and hard press on a pin to get an unpin option.\r\n**Note: On iOS 11/12 long hold on the pin and release to unpin.**\r\nFor quicker mass removing tap on the three dots in the top right, \"Select Messages,\" then tap the red minus on the pins you want to remove."
             },
             {
                 "class": "DepictionHeaderView",
@@ -18,10 +16,7 @@
             },
             {
                 "class": "DepictionMarkdownView",
-                "markdown": "* Normal or Compact Layout\
-                * Set the size of Normal layout between small and large\
-                * Change number of columns on Normal layout\
-                * Disable the \"Drop Glow\" and change it's opacity"
+                "markdown": "* Normal or Compact Layout\r\n* Set the size of Normal layout between small and large\r\n* Change number of columns on Normal layout\r\n* Disable the \"Drop Glow\" and change it's opacity"
             },
             {
                 "class": "DepictionHeaderView",
@@ -60,7 +55,7 @@
                     }
                 ],
                 "itemCornerRadius": 10,
-                "itemSize": {150,325}
+                "itemSize": "{150,325}"
             }
         ]
     },
@@ -74,10 +69,15 @@
             },
             {
                 "class": "DepictionMarkdownView",
-                "markdown": "* TypeCentury and \"Filter Unknown Senders\" compatability\
-                * All pins now load when the app opens\
-                * Added different column amounts\
-                * Added edit pins option"
+                "markdown": "* TypeCentury and \"Filter Unknown Senders\" compatability\r\n* All pins now load when the app opens\r\n* Added different column amounts\r\n* Added edit pins option"
+            },
+            {
+                "class": "DepictionHeaderView",
+                "title": "0.2.1"
+            },
+            {
+                "class": "DepictionMarkdownView",
+                "markdown": "Fix loading pins on iOS versions < 13.3"
             }
         ]
     }
