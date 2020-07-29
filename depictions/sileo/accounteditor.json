@@ -11,22 +11,26 @@
                     "class": "DepictionMarkdownView"
                 },
                 {
-                    "itemSize": "{160, 275.41333333333336}",
-                    "itemCornerRadius": 6,
-                    "class": "DepictionScreenshotsView",
-                    "screenshots": [
-                        {
-                            "url": "https://bid3v.github.io/repo/depictions/images/accounteditor/1.jpg",
-                            "accessibilityText": "Screenshot0"
-                        }
-                    ]
-                },
-                {
                     "markdown": "This tweak allows you to change the name, subtitle, and picture of your iCloud Account cell in the main page of Settings!",
                     "class": "DepictionMarkdownView",
                     "useBottomMargin": false,
                     "title": "markdown-description",
                     "useBoldText": true
+                },
+                {
+                    "itemSize": "{160, 275.41333333333336}",
+                    "itemCornerRadius": 6,
+                    "class": "DepictionScreenshotsView",
+                    "screenshots": [
+                        {
+                            "url": "https://bid3v.github.io/repo/depictions/images/accounteditor/0.PNG",
+                            "accessibilityText": "Screenshot0"
+                        },
+                        {
+                            "url": "https://bid3v.github.io/repo/depictions/images/accounteditor/1.jpg",
+                            "accessibilityText": "Screenshot1"
+                        }
+                    ]
                 },
                 {
                     "class": "DepictionSeparatorView"
