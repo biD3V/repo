@@ -32,6 +32,43 @@ Depiction: https://biD3V.github.io/repo/depictions/minoclock.html
 Icon: https://biD3V.github.io/repo/icons/minoclock.png
 Name: min o’ clock
 
+Package: com.bid3v.accounteditor
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: biD3V
+Installed-Size: 292
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Filename: debs/com.bid3v.accounteditor_1.0.0_iphoneos-arm.deb
+Size: 18352
+MD5sum: f48cb87781e0b0b95dcca16a61fa4073
+SHA1: 98b5426a03fc9ba4d7d3cb5a5043d39102611623
+SHA256: 158b6846e805c5804e87604a2c592853d8ba272deeaa4bc3de05141bfbf5afa2
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: biD3V
+Depiction: https://bid3v.github.io/repo/depictions/accounteditor.html
+Icon: https://bid3v.github.io/repo/icons/accounteditor.png
+Name: AccountEditor
+Sileodepiction: https://bid3v.github.io/repo/depictions/sileo/accounteditor.json
+
+Package: com.bid3v.boldstatus
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: biD3V
+Installed-Size: 284
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Filename: debs/com.bid3v.boldstatus_1.0.0_iphoneos-arm.deb
+Size: 9836
+MD5sum: dd5c3299e775cd07b2418b3b9eb691d0
+SHA1: 6749857d089dec9dc86e212c188d25bd6b6cefc3
+SHA256: 6322d10309c82a49a73793b378747082a631cd8c47f4d2a9316173007ccd1f65
+Section: Tweaks
+Description: Make your StatusBar bold!
+Author: biD3V
+Depiction: http://biD3V.github.io/repo/depictions/boldstatus.html
+Name: BoldStatus
+Sileodepiction: http://biD3V.github.io/repo/depictions/sileo/boldstatus.json
+
 Package: com.bid3v.cleanify
 Version: 1.0.0
 Architecture: iphoneos-arm
