@@ -7,19 +7,8 @@
         {
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "useBottomMargin": false,
-                    "title": "AccountEditor",
-                    "useBoldText": true
-                },
-                {
                     "markdown": "Customize how your iCloud Account appears!",
-                    "class": "DepictionMarkdownView",
-                    "useSpacing": true
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
+                    "class": "DepictionMarkdownView"
                 },
                 {
                     "itemSize": "{160, 275.41333333333336}",
