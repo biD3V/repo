@@ -1,0 +1,73 @@
+{
+    "minVersion": "0.1",
+    "tintColor": "#ff78fd",
+    "headerImage": "",
+    "class": "DepictionTabView",
+    "tabs": [
+        {
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBottomMargin": false,
+                    "title": "Pinnie",
+                    "useBoldText": true
+                },
+                {
+                    "markdown": "Pin messages like iOS 14! Swipe left on a conversation to pin and hard press on a pin to get an unpin option.<br><strong>Note: On iOS 11/12 long hold on the pin and release to unpin.</strong><br>For quicker mass removing tap on the three dots in the top right, \"Select Messages,\" then tap the red minus on the pins you want to remove.",
+                    "class": "DepictionMarkdownView",
+                    "useBottomMargin": false,
+                    "title": "markdown-description",
+                    "useBoldText": true
+                },
+                {
+                    "itemSize": "{160, 275.41333333333336}",
+                    "itemCornerRadius": 6,
+                    "class": "DepictionScreenshotsView",
+                    "screenshots": [
+                        {
+                            "url": "../images/pinnie/1.PNG",
+                            "accessibilityText": "Screenshot0"
+                        },
+                        {
+                            "url": "../images/pinnie/2.PNG",
+                            "accessibilityText": "Screenshot1"
+                        },
+                    ]
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "0.2.1",
+                    "title": "Version"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "07-30-2020",
+                    "title": "Released"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "Free",
+                    "title": "Price"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "biD3V",
+                    "title": "Developer"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                }
+            ],
+            "tabname": "Details",
+            "class": "DepictionStackView"
+        }
+    ]
+}
