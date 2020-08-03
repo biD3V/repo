@@ -4,42 +4,42 @@ body {
     font-family: sans-serif;
 }
 .Title {
-    margin-left: 26pt;
-    margin-right: 26pt;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 .Description {
     background-color: #191919;
-    margin: 16pt;
-    padding-top: 10pt;
-    padding-bottom: 10pt;
-    border-radius: 20pt;
+    margin: 1em;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    border-radius: 2.25em;
     overflow: hidden;
     position: relative;
 }
 
 .indented {
-    margin-left: 25pt;
+    margin-left: 2.5em;
 }
 
 .Subtitle {
-  margin-left: 6pt;
-  margin-right: 6pt;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 
 .iconDesc {
   float: left;
 }
 .icon {
-  width: 50pt;
-  height: 50pt;
-  margin: 10pt 20pt;
+  width: 3.5em;
+  height: 3.5em;
+  margin: 1em 2em;
 }
 .sectionTitle {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  margin-left: 70pt;
+  margin-left: 5em;
 }
 
 p {
