@@ -120,6 +120,25 @@ Depiction: https://biD3V.github.io/repo/depictions/gabc.html
 Icon: https://biD3V.github.io/repo/icons/gABC.png
 Name: goAwayBlurryCircles
 
+Package: com.bid3v.pictter
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: biD3V
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>=11.0)
+Filename: debs/com.bid3v.pictter_1.0.0_iphoneos-arm.deb
+Size: 5566
+MD5sum: cb138898c5a859638688a5569131ceef
+SHA1: d9b7ac519cac4b7d9e7b0519d1f9a090aaf14cfb
+SHA256: 271bc1b2b5a85d0886b0e57bde30aec5a8eed7f8faa0381e4f1c79feca21d650
+Section: Tweaks
+Description: Share tweets as images!
+Author: biD3V
+Depiction: https://bid3v.github.io/repo/depictions/pictter.html
+Icon: https://bid3v.github.io/repo/images/pictter.png
+Name: Pictter
+Sileodepiction: https://bid3v.github.io/repo/depictions/pictter.json
+
 Package: com.bid3v.pinnie
 Version: 0.1.0
 Architecture: iphoneos-arm

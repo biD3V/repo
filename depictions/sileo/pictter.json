@@ -1,0 +1,72 @@
+{
+    "minVersion": "0.1",
+    "tintColor": "#ff78fd",
+    "headerImage": "",
+    "class": "DepictionTabView",
+    "tabs": [
+        {
+            "views": [
+                {
+                    "markdown": "Share Tweets as images. Just tap the button in the lower right hand corner.",
+                    "class": "DepictionMarkdownView",
+                    "useBottomMargin": false,
+                    "title": "markdown-description",
+                    "useBoldText": true
+                },
+                {
+                    "itemSize": "{160, 275.41333333333336}",
+                    "itemCornerRadius": 6,
+                    "class": "DepictionScreenshotsView",
+                    "screenshots": [
+                        {
+                            "url": "https://bid3v.github.io/repo/depictions/images/pictter/0.PNG",
+                            "accessibilityText": "Screenshot0"
+                        },
+                        {
+                            "url": "https://bid3v.github.io/repo/depictions/images/pictter/1.PNG",
+                            "accessibilityText": "Screenshot1"
+                        },
+                        {
+                            "url": "https://bid3v.github.io/repo/depictions/images/pictter/2.PNG",
+                            "accessibilityText": "Screenshot2"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "1.0.0",
+                    "title": "Version"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "08-03-2020",
+                    "title": "Released"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "Free",
+                    "title": "Price"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "biD3V",
+                    "title": "Developer"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                }
+            ],
+            "tabname": "Details",
+            "class": "DepictionStackView"
+        }
+    ]
+}
+
