@@ -33,16 +33,24 @@
                     ]
                 },
                 {
+                    "class": "DepictionSubheaderView",
+                    "title": "Changlog",
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "**1.0.1**\n- Fix iPad support\n- Fix button visibility"
+                },
+                {
                     "class": "DepictionSeparatorView"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.0.0",
+                    "text": "1.0.1",
                     "title": "Version"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "08-03-2020",
+                    "text": "08-04-2020",
                     "title": "Released"
                 },
                 {

@@ -139,6 +139,25 @@ Icon: https://bid3v.github.io/repo/images/pictter.png
 Name: Pictter
 Sileodepiction: https://bid3v.github.io/repo/depictions/pictter.json
 
+Package: com.bid3v.pictter
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: biD3V
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: debs/com.bid3v.pictter_1.0.1_iphoneos-arm.deb
+Size: 5672
+MD5sum: ec46c18605de6458316e284f15d793c6
+SHA1: 0cbf4242ab30a0ca1f6b6a7bb6be27a841f3b1d0
+SHA256: 2d52bab9cee4c0b058878e7e402057c0cd223a389d48ef4eab389b90ecc3efca
+Section: Tweaks
+Description: Share tweets as images!
+Author: biD3V
+Depiction: https://bid3v.github.io/repo/depictions/pictter.html
+Icon: https://bid3v.github.io/repo/icons/pictter.png
+Name: Pictter
+Sileodepiction: https://bid3v.github.io/repo/depictions/sileo/pictter.json
+
 Package: com.bid3v.pinnie
 Version: 0.1.0
 Architecture: iphoneos-arm
@@ -243,17 +262,17 @@ Installed-Size: 644
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts: com.ahmad.pinheads, com.twickd.nicho1asdev.caim
 Filename: debs/com.bid3v.pinnie_0.2.1_iphoneos-arm.deb
-Size: 238952
-MD5sum: 4a094fad2beda562e24a64191e67e63a
-SHA1: 3885cb569714dc77773151a5ac7ac62cd1297b5b
-SHA256: d84eef5c0dbd8f3e6105fb912c2d137151ff0ca542a7b30a133d9c4cfb6a7bba
+Size: 238888
+MD5sum: 8bfbd348dff520dca32c2445e53ed143
+SHA1: 9f575b629454505e6c8a5da13e7e10cafdabde5f
+SHA256: 69126c438625dd1ad08170d9e2fce589a9c023bf0ddcc8c080af806f3ea207f5
 Section: Tweaks
 Description: Pin messages like iOS 14!
 Author: biD3V
 Depiction: https://biD3V.github.io/repo/depictions/pinnie.html
 Icon: https://biD3V.github.io/repo/icons/Pinnie.png
 Name: Pinnie
-Sileodepiction: https://biD3V.github.io/repo/depictions/sileo/pinnie
+Sileodepiction: https://biD3V.github.io/repo/depictions/sileo/pinnie.json
 
 Package: com.bid3v.randccolor
 Version: 0.2.1-1+debug
