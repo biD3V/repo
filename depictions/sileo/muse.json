@@ -1,0 +1,48 @@
+{
+    "minVersion": "0.1",
+    "tintColor": "#FC4FF8",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "views": [
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "What is Muse?"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Muse is a collection of HSWidgets for music apps. Current supported apps are Spotify, Music, and SoundCloud. The Spotify widget is based on [this concept](https://www.reddit.com/r/iOSBeta/comments/i4l00v/spotify_widgets_concept/?utm_source=share&utm_medium=ios_app&utm_name=iossmf) and the Music widget is based on [iOS 14's Music widget](https://www.reddit.com/r/AppleMusic/comments/he5rmv/new_ios_14_music_widgets/).\n\n**iOS 13+ only**"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "**Features:**\n\n- Song Title, Artist, and Artwork\n\n- Spotify:\n\n - Next in Queue\n\n - Song Code\n\n - Play/Pause Button\n\n- Music and Spotify\n\n - Recently Played\n\n - Expandable"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "The Future of Muse"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "School is starts for me today (September 14<sup>th</sup>, 2020) so I have to direct focus towards my studies. Unfortunately, this means I have to keep the focus of development to fixing bugs. I was unable to get the widgets to where I wanted them to be at this time. After the quarter, I will hopefully have enough time to amend this."
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "**Planned Features:**\n\n- Album art on small size for Spotify\n\n- Forcing Dark/Light Moden\n\n- Setting background to tint color (see Spotify widget concept)\n\n- Progress bar\n\n- Different options for what is displayed in Recently Played section\n\n- Tap widget to open application"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Version",
+                    "text": "0.0.4"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Donate on ko-fi",
+                    "action": "https://ko-fi.com/bid3v",
+                    "openExternal": 1
+                }
+            ],
+            "class": "DepictionStackView"
+        }
+    ],
+    "class": "DepictionTabView"
+}

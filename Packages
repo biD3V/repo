@@ -120,6 +120,42 @@ Depiction: https://biD3V.github.io/repo/depictions/gabc.html
 Icon: https://biD3V.github.io/repo/icons/gABC.png
 Name: goAwayBlurryCircles
 
+Package: com.bid3v.muse
+Version: 0.0.4
+Architecture: iphoneos-arm
+Maintainer: biD3V
+Installed-Size: 824
+Depends: firmware (>= 13.0), mobilesubstrate, com.dgh0st.hswidgets, com.bid3v.museui
+Filename: debs/com.bid3v.muse_0.0.4_iphoneos-arm.deb
+Size: 61292
+MD5sum: d70f03693c22c96e720011ebc58fc6df
+SHA1: 3f8b64da338acb83c7126139b14402dc1fc5878e
+SHA256: 7215377b86cbf9de4a42fe26da284217b7e2822a683896c3751772e6f90cef17
+Section: Tweaks
+Description: Awesome Music HSWidgets!
+Author: biD3V
+Depiction: https://biD3V.github.io/repo/depictions/muse.html
+Icon: https://biD3V.github.io/repo/icons/Muse.png
+Name: Muse
+Sileodepiction: https://biD3V.github.io/repo/depictions/sileo/muse.json
+
+Package: com.bid3v.museui
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: biD3V
+Installed-Size: 180
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: debs/com.bid3v.museui_0.0.3_iphoneos-arm.deb
+Size: 6796
+MD5sum: 4f849ffe1cab9f90d1efbd415c5408ef
+SHA1: a866f2f3869106b68f42a1401089f308ce61196d
+SHA256: 827990f8f3fc1849bf2c84de124d1ba61392c6c4e52bd809f29f2464c3e42244
+Section: System
+Description: A framework for biD3V's Muse HSWidgets!
+Tag: role::developer
+Author: biD3V
+Name: MuseUI
+
 Package: com.bid3v.pictter
 Version: 1.0.0
 Architecture: iphoneos-arm
