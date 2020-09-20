@@ -139,6 +139,25 @@ Icon: https://biD3V.github.io/repo/icons/Muse.png
 Name: Muse
 Sileodepiction: https://biD3V.github.io/repo/depictions/sileo/muse.json
 
+Package: com.bid3v.muse
+Version: 0.0.5
+Architecture: iphoneos-arm
+Maintainer: biD3V
+Installed-Size: 836
+Depends: firmware (>= 13.0), mobilesubstrate, com.dgh0st.hswidgets, com.bid3v.museui
+Filename: debs/com.bid3v.muse_0.0.5_iphoneos-arm.deb
+Size: 63348
+MD5sum: 8a7e2599eea43773a91f74bd9e34e45f
+SHA1: 766e56a052b9252c832530cd360c02504972de12
+SHA256: 41b1010da26e6f9bc7912258f71b388b97c2a016722d0e88068b392f444c64e2
+Section: Tweaks
+Description: Awesome Music HSWidgets!
+Author: biD3V
+Depiction: https://biD3V.github.io/repo/depictions/muse.html
+Icon: https://biD3V.github.io/repo/icons/Muse.png
+Name: Muse
+Sileodepiction: https://biD3V.github.io/repo/depictions/sileo/muse.json
+
 Package: com.bid3v.museui
 Version: 0.0.3
 Architecture: iphoneos-arm
@@ -150,6 +169,23 @@ Size: 6796
 MD5sum: 4f849ffe1cab9f90d1efbd415c5408ef
 SHA1: a866f2f3869106b68f42a1401089f308ce61196d
 SHA256: 827990f8f3fc1849bf2c84de124d1ba61392c6c4e52bd809f29f2464c3e42244
+Section: System
+Description: A framework for biD3V's Muse HSWidgets!
+Tag: role::developer
+Author: biD3V
+Name: MuseUI
+
+Package: com.bid3v.museui
+Version: 0.0.4
+Architecture: iphoneos-arm
+Maintainer: biD3V
+Installed-Size: 180
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: debs/com.bid3v.museui_0.0.4_iphoneos-arm.deb
+Size: 6928
+MD5sum: 57ef1d6005595671e3f07fd6d718e0f3
+SHA1: 2fb1a9837ff98c40a297e2f59c7e2c741a6f45c5
+SHA256: bd9d30e2d37d1d65ddb0a8e401b105d31d48d7333a20aa291e831f13ce9cbddf
 Section: System
 Description: A framework for biD3V's Muse HSWidgets!
 Tag: role::developer

@@ -42,6 +42,21 @@
                 }
             ],
             "class": "DepictionStackView"
+        },
+        {
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "0.0.4",
+                    "useBottomMargin": "false"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Fixed(?) Music Widget crash\n\n- Spotify Code now adapts to system appearance"
+                }
+            ],
+            "class": "DepictionStackView"
         }
     ],
     "class": "DepictionTabView"
