@@ -51,6 +51,25 @@ Icon: https://bid3v.github.io/repo/icons/accounteditor.png
 Name: AccountEditor
 Sileodepiction: https://bid3v.github.io/repo/depictions/sileo/accounteditor.json
 
+Package: com.bid3v.battcirc
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: biD3V
+Installed-Size: 52
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.bid3v.battcirc_1.0.0_iphoneos-arm.deb
+Size: 8706
+MD5sum: 5429411788c494383598f14486197ced
+SHA1: 81e5e24dca5dc58f29be64693c644cdd65ba2553
+SHA256: e30b36a546658e22ee97a378d4f6d836a659daf635d17913f27da7bad962d834
+Section: Tweaks
+Description: iOS 14 MagSafe carging animation for iOS 13.
+Author: biD3V
+Depiction: https://biD3V.github.io/repo/depictions/battcirc.html
+Icon: https://biD3V.github.io/repo/icons/BattCirc.png
+Name: BattCirc
+Sileodepiction: https://biD3V.github.io/repo/depictions/sileo/battcirc.json
+
 Package: com.bid3v.boldstatus
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -119,6 +138,44 @@ Author: biD3V <biD3Veloper+jailbreak@gmail.com>
 Depiction: https://biD3V.github.io/repo/depictions/gabc.html
 Icon: https://biD3V.github.io/repo/icons/gABC.png
 Name: goAwayBlurryCircles
+
+Package: com.bid3v.grounded
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: biD3V
+Installed-Size: 180
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: debs/com.bid3v.grounded_1.0.0_iphoneos-arm.deb
+Size: 11012
+MD5sum: d746426ac1ca99c5f0ba8820300a36b6
+SHA1: 3efaaf43d4a48c5e85a739ac346ffd3f29e20d3b
+SHA256: f502d8f5af64c2b08ebc970873d8ca46162f9cebd5f8bdc5c6d3531227f4baa3
+Section: Tweaks
+Description: Stop people from disabling your connections while locked!
+Author: biD3V
+Depiction: https://biD3V.github.io/repo/depictions/grounded.html
+Icon: https://biD3V.github.io/repo/icons/Grounded.png
+Name: Grounded
+Sileodepiction: https://biD3V.github.io/repo/depictions/sileo/grounded.json
+
+Package: com.bid3v.idontfleet
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: biD3V
+Installed-Size: 28
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.bid3v.idontfleet_0.0.1_iphoneos-arm.deb
+Size: 2770
+MD5sum: 932a7f5f1008980cd5b5959c9831e32c
+SHA1: edd604ece2a89affb40d82569d68dd96ba933b09
+SHA256: 0b1eb0f83a969af0a87a3ef2a23d6a736494483d2c861f9fcf822af07c11e0c1
+Section: Tweaks
+Description: Do you fleet?
+Author: biD3V
+Depiction: https://biD3V.github.io/repo/depictions/idontfleet.html
+Icon: https://biD3V.github.io/repo/icons/IDontFleet.png
+Name: I Don't Fleet
+Sileodepiction: https://biD3V.github.io/repo/depictions/sileo/idontfleet.json
 
 Package: com.bid3v.muse
 Version: 0.0.4
