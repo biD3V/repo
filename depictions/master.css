@@ -81,6 +81,9 @@ a:hover, a:active {
     width: 100%;
     border-radius: 10pt;
     max-width: 15em;
+    max-height: calc((812 / 375) * 15em);
+    width: auto;
+    height: auto;
     float: left;
     flex: 0 0 auto;
     margin: 0 0.25em;

@@ -1,13 +1,13 @@
 {
     "minVersion": "0.1",
-    "tintColor": "#0657bb",
+    "tintColor": "#ff78fd",
     "headerImage": "",
     "class": "DepictionTabView",
     "tabs": [
         {
             "views": [
                 {
-                    "markdown": "Change the font weight of the StatusBar. Preferences include options to individually disable StatusBar items.",
+                    "markdown": "Brings the iOS 14 MagSafe charging animation to iOS 13. The color will change between green for nomal, red for low battery, and yellow for low power mode.",
                     "class": "DepictionMarkdownView",
                     "useBottomMargin": false,
                     "title": "markdown-description",
@@ -23,7 +23,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "07-26-2020",
+                    "text": "11-30-2020",
                     "title": "Released"
                 },
                 {
