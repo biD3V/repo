@@ -1,15 +1,16 @@
 {
-    "minVersion": "0.1",
+    "minVersion": "0.4",
     "tintColor": "#ff78fd",
     "headerImage": "",
     "class": "DepictionTabView",
     "tabs": [
         {
+            "tabname": "Details",
+            "class": "DepictionStackView",
             "views": [
                 {
-                    "markdown": "Grounded allows you to disable certain connectivity toggles in the Control Center when locked to keep people from turning them off while still alowing access to the CC. Turning off toggles in the preferences will disable them in the CC.\n\nNo respring required.",
+                    "markdown": "Grounded allows you to disable certain connectivity toggles in the Control Center when locked to keep people from turning them off while still alowing access to the CC. Turning off toggles in the preferences will disable them in the CC.\n\nNo respring required.\n\n**Not compatible with Prysm**",
                     "class": "DepictionMarkdownView",
-                    "useBottomMargin": false,
                     "title": "markdown-description",
                     "useBoldText": true
                 },
@@ -44,9 +45,32 @@
                     "class": "DepictionSpacerView",
                     "spacing": 8
                 }
-            ],
-            "tabname": "Details",
-            "class": "DepictionStackView"
+            ]
+        },
+        {
+            "tabname": "Changelog",
+            "class": "DepictionStackView",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.0.1"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Now only hides when device is actually locked and not just showing the lockscreen."
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.0.0"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Initial release"
+                }
+            ]
         }
     ]
 }

@@ -158,6 +158,25 @@ Icon: https://biD3V.github.io/repo/icons/Grounded.png
 Name: Grounded
 Sileodepiction: https://biD3V.github.io/repo/depictions/sileo/grounded.json
 
+Package: com.bid3v.grounded
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: biD3V
+Installed-Size: 180
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: debs/com.bid3v.grounded_1.0.1_iphoneos-arm.deb
+Size: 11004
+MD5sum: 037a2fbcca208fbfd78e2e2cbd4681b6
+SHA1: 9fb871d264e4b60a3df91c458f55a06da3d87097
+SHA256: 44eee5dcf8d0930fa72ebe3cd7406f6e3a9324d87de196f918886b3421d3dd02
+Section: Tweaks
+Description: Stop people from disabling your connections while locked!
+Author: biD3V
+Depiction: https://biD3V.github.io/repo/depictions/grounded.html
+Icon: https://biD3V.github.io/repo/icons/Grounded.png
+Name: Grounded
+Sileodepiction: https://biD3V.github.io/repo/depictions/sileo/grounded.json
+
 Package: com.bid3v.idontfleet
 Version: 0.0.1
 Architecture: iphoneos-arm
