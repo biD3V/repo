@@ -177,6 +177,25 @@ Icon: https://biD3V.github.io/repo/icons/Grounded.png
 Name: Grounded
 Sileodepiction: https://biD3V.github.io/repo/depictions/sileo/grounded.json
 
+Package: com.bid3v.homeslice
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: biD3V <bid3veloper+jailbreak@gmail.com>
+Installed-Size: 180
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.spark.libsparkapplist, firmware (>= 11.0)
+Filename: debs/com.bid3v.homeslice_1.0.0_iphoneos-arm.deb
+Size: 10978
+MD5sum: b406ecb0f7e8f8d603b9258bc28e4256
+SHA1: 44b1bc4415b5fbbdcf4de4cae97fc32792c2346f
+SHA256: 0a33ba0f5674868eb54a005be8c54afd3e2342be8b5200a60765f35daa75b134
+Section: Tweaks
+Description: Cut down on your TabBars!
+Author: biD3V <bid3veloper+jailbreak@gmail.com>
+Depiction: https://biD3V.github.io/repo/depictions/homeslice.html
+Icon: https://biD3V.github.io/repo/icons/HomeSlice.png
+Name: Home Slice
+Sileodepiction: https://biD3V.github.io/repo/depictions/sileo/homeslice.json
+
 Package: com.bid3v.idontfleet
 Version: 0.0.1
 Architecture: iphoneos-arm

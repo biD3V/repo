@@ -1,0 +1,70 @@
+{
+    "minVersion": "0.4",
+    "tintColor": "#ff78fd",
+    "headerImage": "",
+    "class": "DepictionTabView",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "class": "DepictionStackView",
+            "views": [
+                {
+                    "markdown": "Home Slice cuts down on the wasted space used by the HomeBar to give just a smidge more space for your apps.\n\n**Requires libSparkAppList from https://sparkdev.me**",
+                    "class": "DepictionMarkdownView",
+                    "title": "markdown-description",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "iPhone X+, iOS 11+",
+                    "title": "Supported Devices"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "1.0.0",
+                    "title": "Version"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "12-5-2020",
+                    "title": "Released"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "Free",
+                    "title": "Price"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "biD3V",
+                    "title": "Developer"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                }
+            ]
+        },
+        {
+            "tabname": "Changelog",
+            "class": "DepictionStackView",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.0.0"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Initial release"
+                }
+            ]
+        }
+    ]
+}
