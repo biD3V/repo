@@ -11,7 +11,7 @@
                     "class": "DepictionMarkdownView"
                 },
                 {
-                    "markdown": "Makes the package header float in Sileo.\n\n浮 (uki) is Japanese for \"float.\"",
+                    "markdown": "Makes the package header float in Sileo. Compact mode and small corners can be enabled in settings.\n\n浮 (uki) is Japanese for \"float.\"",
                     "class": "DepictionMarkdownView",
                     "useBottomMargin": false,
                     "title": "markdown-description",
@@ -50,7 +50,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "04-04-2020",
+                    "text": "04-06-2020",
                     "title": "Released"
                 },
                 {

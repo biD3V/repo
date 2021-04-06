@@ -475,3 +475,22 @@ Depiction: https://biD3V.github.io/repo/depictions/randccolor.html
 Icon: https://biD3V.github.io/repo/icons/randCColor.png
 Name: randCColor (beta)
 
+Package: com.bid3v.uki
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: biD3V
+Installed-Size: 336
+Depends: firmware (>= 13.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.bid3v.uki_1.0.0_iphoneos-arm.deb
+Size: 26604
+MD5sum: 932020c41d3d9b46149555b15a986707
+SHA1: eb8ebc68ec2983bb3c562f8fb2f039b5efc7372e
+SHA256: b543e63c4bb4b096c8c3ae5b87ff5326d6d50d04c25a0a20f4badc3483455343
+Section: Tweaks
+Description: Float your package headers!
+Author: biD3V
+Depiction: https://bid3v.github.io/repo/depictions/uki.html
+Icon: https://bid3v.github.io/repo/icons/uki.png
+Name: uki
+Sileodepiction: https://bid3v.github.io/repo/depictions/sileo/uki.json
+
