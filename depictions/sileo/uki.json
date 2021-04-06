@@ -1,0 +1,79 @@
+{
+    "minVersion": "0.1",
+    "tintColor": "#ff78fd",
+    "headerImage": "https://bid3v.github.io/repo/depictions/images/uki/header.png",
+    "class": "DepictionTabView",
+    "tabs": [
+        {
+            "views": [
+                {
+                    "markdown": "Float your package headers!",
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "markdown": "Makes the package header float in Sileo.\n\n浮 (uki) is Japanese for \"float.\"",
+                    "class": "DepictionMarkdownView",
+                    "useBottomMargin": false,
+                    "title": "markdown-description",
+                    "useBoldText": true
+                },
+                {
+                    "itemSize": "{160, 275.41333333333336}",
+                    "itemCornerRadius": 6,
+                    "class": "DepictionScreenshotsView",
+                    "screenshots": [
+                        {
+                            "url": "https://bid3v.github.io/repo/depictions/images/uki/0.jpg",
+                            "accessibilityText": "Uki with default settings and system dark mode."
+                        },
+                        {
+                            "url": "https://bid3v.github.io/repo/depictions/images/uki/1.jpg",
+                            "accessibilityText": "Uki with default settings and system light mode."
+                        },
+                        {
+                            "url": "https://bid3v.github.io/repo/depictions/images/uki/2.jpg",
+                            "accessibilityText": "Uki with compact mode enabled and Sileo dark mode."
+                        },
+                        {
+                            "url": "https://bid3v.github.io/repo/depictions/images/uki/3.jpg",
+                            "accessibilityText": "Uki with small corners enabled and Sileo dark mode."
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "1.0.0",
+                    "title": "Version"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "04-04-2020",
+                    "title": "Released"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "Free",
+                    "title": "Price"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "biD3V",
+                    "title": "Developer"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                }
+            ],
+            "tabname": "Details",
+            "class": "DepictionStackView"
+        }
+    ]
+}
