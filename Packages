@@ -105,6 +105,22 @@ Author: biD3V
 Depiction: https://bid3v.github.io/repo/depictions/cleanify.html
 Name: Cleanify
 
+Package: com.bid3v.electrode
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: biD3V
+Installed-Size: 332
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: debs/com.bid3v.electrode_1.0.0_iphoneos-arm.deb
+Size: 28800
+MD5sum: 86641b663fc3d092f91b3b2b3935a7f8
+SHA1: f780f437db043f8c22a5342eef070f5ed2193811
+SHA256: 646fd64e4a910326baf4eaa2bf03cb90e4c9328d854875972400aeb7f0235e2f
+Section: Tweaks
+Description: Charging and low power mode toasts!
+Author: biD3V
+Name: Electrode
+
 Package: com.bid3v.gabc
 Version: 1.0.0-1+debug
 Architecture: iphoneos-arm

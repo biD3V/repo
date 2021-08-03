@@ -1,0 +1,95 @@
+{
+    "minVersion": "0.1",
+    "tintColor": "#ff78fd",
+    "headerImage": "https://bid3v.github.io/repo/depictions/images/electrode/header.png",
+    "class": "DepictionTabView",
+    "tabs": [
+        {
+            "views": [
+                {
+                    "markdown": "Make some toast for your battery!",
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "markdown": "Want to know your battery is low without an intrusive alert? Then Electrode is for you!\n\nElectrode adds a \"toast\" notification for charging and low power similar the ringer and clipboard toasts.\n\nIncludes option to auto-hide low power toast.\n\nRequires at least iOS 13.",
+                    "class": "DepictionMarkdownView",
+                    "useBottomMargin": false,
+                    "useBoldText": true
+                },
+                {
+                    "itemSize": "{160, 275.41333333333336}",
+                    "itemCornerRadius": 6,
+                    "class": "DepictionScreenshotsView",
+                    "screenshots": [
+                        {
+                            "url": "https://bid3v.github.io/repo/depictions/images/electrode/0.png",
+                            "accessibilityText": "Rounded rectangle under an iPhone X status bar with. In the center are the lines 'Charging' and '98%.' To the left is a glyph of an iPhone X. To the right, a charging battery glyph."
+                        },
+                        {
+                            "url": "https://bid3v.github.io/repo/depictions/images/electrode/1.png",
+                            "accessibilityText": "Rounded rectangle under an iPhone X status bar with. In the center are the lines 'Low Battery' and '20% battery remaining.' To the left is a glyph of an iPhone X. To the right, a low battery glyph."
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Known Bugs",
+                    "useBottomMargin": false
+                },
+                {
+                    "markdown": "Only tested on iPhone X, iOS 14.3\n\n- Does not respect device orientation",
+                    "class": "DepictionMarkdownView",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "1.0.0",
+                    "title": "Version"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "08-03-2021",
+                    "title": "Released"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "Free",
+                    "title": "Price"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "biD3V",
+                    "title": "Developer"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                }
+            ],
+            "tabname": "Details",
+            "class": "DepictionStackView"
+        },
+        {
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "1.0.0",
+                    "useBottomMargin": "false"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Initial Release"
+                }
+            ],
+            "class": "DepictionStackView"
+        }
+    ]
+}
