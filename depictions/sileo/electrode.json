@@ -87,6 +87,15 @@
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "Initial Release"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "1.0.1",
+                    "useBottomMargin": "false"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Compile preference bundle for arm64e"
                 }
             ],
             "class": "DepictionStackView"
