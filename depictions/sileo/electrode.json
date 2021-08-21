@@ -46,12 +46,12 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.0.0",
+                    "text": "1.0.2",
                     "title": "Version"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "08-03-2021",
+                    "text": "08-21-2021",
                     "title": "Released"
                 },
                 {
@@ -81,12 +81,12 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
-                    "title": "1.0.0",
+                    "title": "1.0.2",
                     "useBottomMargin": "false"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Initial Release"
+                    "markdown": "- More Prefs\n - Auto Hide\n - Auto Low Power\n - Custom alert percents\n- Experiemental typing support\n- Localization Support"
                 },
                 {
                     "class": "DepictionHeaderView",
@@ -96,6 +96,15 @@
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "- Compile preference bundle for arm64e"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "1.0.0",
+                    "useBottomMargin": "false"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Initial Release"
                 }
             ],
             "class": "DepictionStackView"

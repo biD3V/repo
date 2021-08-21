@@ -74,6 +74,30 @@
             ],
             "tabname": "Details",
             "class": "DepictionStackView"
+        },
+        {
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "1.0.1",
+                    "useBottomMargin": "false"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added option to change offset\n\n- Added blur option"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "1.0.0",
+                    "useBottomMargin": "false"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Initial Release"
+                }
+            ],
+            "class": "DepictionStackView"
         }
     ]
 }
