@@ -162,6 +162,25 @@ Icon: https://bid3v.github.io/repo/icons/Electrode.png
 Name: Electrode
 Sileodepiction: https://bid3v.github.io/repo/depictions/sileo/electrode.json
 
+Package: com.bid3v.electrode
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: biD3V
+Installed-Size: 432
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: debs/com.bid3v.electrode_1.0.3_iphoneos-arm.deb
+Size: 41082
+MD5sum: 599c5a17fc75b96aa6681f5cc6593d48
+SHA1: bf876b44332d8af35a85403ab5cc7a75cc279c15
+SHA256: 22d09d0d77ad882e402b7de80631ed1564b358fd60ec3b72da6d5a6c5b8aec00
+Section: Tweaks
+Description: Charging and low power mode toasts!
+Author: biD3V
+Depiction: https://bid3v.github.io/repo/depictions/electrode.html
+Icon: https://bid3v.github.io/repo/icons/Electrode.png
+Name: Electrode
+Sileodepiction: https://bid3v.github.io/repo/depictions/sileo/electrode.json
+
 Package: com.bid3v.gabc
 Version: 1.0.0-1+debug
 Architecture: iphoneos-arm

@@ -37,7 +37,7 @@
                     "useBottomMargin": false
                 },
                 {
-                    "markdown": "Only tested on iPhone X, iOS 14.3\n\n- Does not respect device orientation",
+                    "markdown": "Only tested on iPhone X, iOS 14.3",
                     "class": "DepictionMarkdownView",
                     "useBoldText": true
                 },
@@ -79,6 +79,15 @@
         {
             "tabname": "Changelog",
             "views": [
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "1.0.3",
+                    "useBottomMargin": "false"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Fix rotation bug\n- Typing fixes"
+                },
                 {
                     "class": "DepictionHeaderView",
                     "title": "1.0.2",
