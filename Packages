@@ -570,3 +570,21 @@ Icon: https://bid3v.github.io/repo/icons/uki.png
 Name: uki
 Sileodepiction: https://bid3v.github.io/repo/depictions/sileo/uki.json
 
+Package: com.bidev.hoyops
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: biDev
+Installed-Size: 184
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.bidev.hoyops_1.0.0_iphoneos-arm64e.deb
+Size: 5658
+MD5sum: 220832df75f2493ae6b97f7273a7ee98
+SHA1: 1dc6b496c3e6191df15e2fe0ca1a94b1d7993ee0
+SHA256: 45fe07b69f2295dc55fdd1948bf6112e30198af8fa0f4549a508213566b57505
+Section: Tweaks
+Description: Connect to private servers for a certain anime game.
+Author: biDev
+Depiction: https://bid3v.github.io/repo/depictions/hoyops.html
+Name: HoYoPS
+Sileodepiction: https://bid3v.github.io/repo/depictions/sileo/hoyops.json
+

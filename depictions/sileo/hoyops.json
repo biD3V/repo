@@ -1,0 +1,56 @@
+{
+    "minVersion": "0.1",
+    "tintColor": "#ff78fd",
+    "headerImage": "https://bid3v.github.io/repo/depictions/images/uki/header.png",
+    "class": "DepictionTabView",
+    "tabs": [
+        {
+            "views": [
+                {
+                    "markdown": "Connect to private servers for a certain anime game.",
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "markdown": "Allows a certain space train anime game to connect to private servers\n# Setup\n1. Install tweak, and then open and close the game.\n2. Open Filza and navigate to `/var/mobile/Containers/Data/Application/[GAME FOLDER]/Library`.\n2. Inside should be a file called `server_config.plist` which you can edit to point to the server you want.\n4. Save your changes and now when you open the game it should connect to the selected server.",
+                    "class": "DepictionMarkdownView",
+                    "useBottomMargin": false,
+                    "title": "markdown-description",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "1.0.0",
+                    "title": "Version"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "01-06-2024",
+                    "title": "Released"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "Free",
+                    "title": "Price"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "biDev",
+                    "title": "Developer"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                }
+            ],
+            "tabname": "Details",
+            "class": "DepictionStackView"
+        }
+    ]
+}

@@ -3,6 +3,11 @@ body {
     color: white;
     font-family: sans-serif;
 }
+
+code {
+  font-family: monospace;
+}
+
 .Title {
     margin-left: 2em;
     margin-right: 2em;
