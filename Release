@@ -1,8 +1,8 @@
-Origin: biD3V's Repo
-Label: biD3V
+Origin: biDev's Repo
+Label: biDev's Repo
 Suite: stable
-Version: 1.3
+Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm
+Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: biD3V's Repo
