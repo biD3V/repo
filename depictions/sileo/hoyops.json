@@ -1,7 +1,6 @@
 {
     "minVersion": "0.1",
     "tintColor": "#ff78fd",
-    "headerImage": "https://bid3v.github.io/repo/depictions/images/uki/header.png",
     "class": "DepictionTabView",
     "tabs": [
         {
